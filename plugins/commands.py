@@ -47,12 +47,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[ 
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
+            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/movie_ki_duniya_1')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl')
+            InlineKeyboardButton('🌷Join my group', url='https://t.me/movie_name_search_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -94,12 +94,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
+            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/movie_ki_duniya_1')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl')
+            InlineKeyboardButton('🌷Join my group', url='https://t.me/movie_name_search_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -253,7 +253,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+gXuMKXOWm1UyOTdl")
+                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/movie_name_search_group")
                 ]
             ]
         )
