@@ -412,7 +412,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
